@@ -1,0 +1,45 @@
+$color: red;
+$color: black;
+
+
+
+//ARTISTAS
+
+
+.contenedor1{
+    width: 90%;
+    height: 600px;
+    padding-top: 10em;
+    margin: auto;
+    display: flex;
+    justify-content:center;
+    justify-content: space-between;
+    align-items: center;}
+  
+    $img1: Carol;
+    $img2: Agustin;
+    $img3: Motos;
+    
+    $artistas: $img1; 
+    .contenedor1 {
+          @if $artistas == Carol {
+                 color: orange;
+                 background-image: url("/img/carrr.jpg");
+                 background-position: center;
+                 background-size: cover;
+          } @else if $artistas == $img2 {
+                     color: red;
+                     background-color: yellow;
+                     background-image: url("/img/MadMax\ Troupe.jpg");
+                     background-position: center;
+                     background-size: cover;
+         } @else if $animal == $img3 {
+                    color: green;
+                    background-image: url("/img/globo2.jpg");
+                    background-position: center;
+                    background-size: cover;
+         } @else {
+                    color: coral;
+                    background-color: #333;
+          }
+    }

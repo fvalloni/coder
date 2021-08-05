@@ -1,0 +1,1 @@
+Agregué etiquetas meta , con la descripcion de mi pagina en el head. Cambié titulos en cada seccion de la misma, y agregué keyboards palabras claves en la seccion index 

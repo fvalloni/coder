@@ -1,0 +1,28 @@
+.footer {
+    padding: 1em 4em;
+    background-color: honeydew;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.title__footer {
+    text-align: center;
+    padding: 0.5em 0;
+    border-bottom: 1px solid green;
+}
+
+iframe,
+.footer ul {
+    padding: 0.8em;
+}
+
+.footer ul i {
+    padding: 0.5em;
+    font-size: 0.8rem;
+}
+
+footer li:hover {
+    color: green;
+}
+
